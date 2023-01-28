@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "teamszilla",
+  "version": "0.1",
+  "description": "Open external links from Teams in Firefox",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+         "https://teams.microsoft.com/*"
+      ],
+      "all_frames": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+#!/usr/bin/env xdg-open
+
+# Copy (or symlink) this file under ~/.local/share/applications/ or
+# /usr/share/applications/
+
+# The purpose of this Desktop Entry is to register a handler for "firefox:*"
+# URIs. When clicking a "firefox:*" link from Chromium (or other applications)
+# the script associated to this Desktop Entry will be executed.
+#
+# Note that the URI scheme "firefox" was picked arbitrarily; any other scheme
+# not already in use would be equally valid.
+
+[Desktop Entry]
+Version=1.0
+Name=TeamsZilla - Firefox Scheme Handler
+Comment=Open "firefox:*" URIs (injected by the TeamsZilla Chrome extension) in Firefox
+Exec=/usr/local/bin/teamszilla.sh %u
+Icon=firefox
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=firefox
+MimeType=x-scheme-handler/firefox;
