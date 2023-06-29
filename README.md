@@ -81,7 +81,7 @@ Its scope and supported environment are rather narrow:
 ### Standard external links
 
 Only _standard_ external links are supported. That includes all links embedded
-as part of text messages as HTML anchor elements with a `target="_black"`
+as part of text messages as HTML anchor elements with a `target="_blank"`
 attribute.
 
 Notably, other elements that also have the effect of opening URLs externally,
