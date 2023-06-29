@@ -134,8 +134,8 @@ window _close_ and _focus_ operations like it is done for i3 in
 
 ### Chrome extension
 
-In Chromium, visit <chrome://extensions>, click on "Load upacked" and select
-the [Chrome extension](./chrome_extension) directory.
+In Chromium, visit <chrome://extensions>, enable "Developer mode", click on
+"Load unpacked" and select the [Chrome extension](./chrome_extension) directory.
 
 The first time a modified link is clicked, Chromium will ask for permission to
 open the native application. Click on the "Always allow..." checkbox and accept.
