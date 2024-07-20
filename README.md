@@ -1,3 +1,11 @@
+# ARCHIVED!
+
+Now that Microsoft Teams has released v2 with [official support for Firefox in
+Linux][prerequisites] and it seems to have been working fine since, I have no
+need for this hack anymore.
+
+[prerequisites]: https://learn.microsoft.com/en-us/microsoftteams/new-teams-web#prerequisites
+
 # TeamsZilla
 
 Chrome extension that, together with an accompanying native application,
